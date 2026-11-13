@@ -199,8 +199,14 @@
 <h2>👨‍💻 Author</h2>
 
 <p>
-  <strong>Your Name</strong>
+  <strong>Mina Shawky</strong>
+  <br />
+  GitHub:
+  <a href="https://github.com/Mina-Shawky">
+    Mina-Shawky
+  </a>
 </p>
+
 
 <hr />
 
