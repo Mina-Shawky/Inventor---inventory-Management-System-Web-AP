@@ -118,4 +118,94 @@
 </p>
 
 <p>
-  The
+  The database includes entities and relationships between:
+</p>
+
+<ul>
+  <li>Products</li>
+  <li>Product Categories</li>
+  <li>Suppliers</li>
+  <li>Inventory Records</li>
+  <li>Customers</li>
+  <li>Orders</li>
+</ul>
+
+<h2>✅ Validation & Data Processing</h2>
+
+<p>
+  To ensure consistent and reliable API request processing,
+  the project uses:
+</p>
+
+<ul>
+  <li><strong>DTOs:</strong> To structure request and response data.</li>
+  <li><strong>Data Annotations:</strong> To define validation rules.</li>
+  <li><strong>Custom Action Filters:</strong> To handle request validation
+      and consistent processing across API endpoints.</li>
+</ul>
+
+<h2>⚙️ Getting Started</h2>
+
+<h3>Prerequisites</h3>
+
+<ul>
+  <li>.NET SDK</li>
+  <li>SQL Server</li>
+  <li>Visual Studio</li>
+  <li>Git</li>
+</ul>
+
+<h3>Installation</h3>
+
+<ol>
+  <li>
+    Clone the repository:
+    <pre><code>git clone YOUR_REPOSITORY_URL</code></pre>
+  </li>
+  <li>
+    Navigate to the project directory:
+    <pre><code>cd Inventor</code></pre>
+  </li>
+  <li>
+    Restore project dependencies:
+    <pre><code>dotnet restore</code></pre>
+  </li>
+  <li>
+    Configure your SQL Server connection string
+    in the application configuration.
+  </li>
+  <li>
+    Apply the Entity Framework Core migrations:
+    <pre><code>dotnet ef database update</code></pre>
+  </li>
+  <li>
+    Run the application from Visual Studio or using:
+    <pre><code>dotnet run</code></pre>
+  </li>
+</ol>
+
+<h2>🎯 Project Goals</h2>
+
+<ul>
+  <li>Build a maintainable and reusable backend architecture.</li>
+  <li>Apply Repository and Specification design patterns.</li>
+  <li>Improve separation of concerns between application layers.</li>
+  <li>Build RESTful APIs following backend development practices.</li>
+  <li>Design and manage relational databases using EF Core.</li>
+</ul>
+
+<hr />
+
+<h2>👨‍💻 Author</h2>
+
+<p>
+  <strong>Your Name</strong>
+</p>
+
+<hr />
+
+<div align="center">
+  <p>
+    Built with ❤️ using ASP.NET Core Web API
+  </p>
+</div>
